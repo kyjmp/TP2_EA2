@@ -1019,6 +1019,12 @@
 		(uuid "1929f21e-9afa-4980-953d-1a44a07f9b0c")
 	)
 	(junction
+		(at 148.59 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "243b7108-34d4-4bff-b74c-fdf60e837a85")
+	)
+	(junction
 		(at 154.94 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1049,28 +1055,22 @@
 		(uuid "4fd0eb4e-0042-4e2f-a647-bd8e603a3d96")
 	)
 	(junction
-		(at 107.95 54.61)
+		(at 162.56 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5703d6ee-d995-41e6-82f6-1d5db3c986df")
-	)
-	(junction
-		(at 148.59 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d059e097-8539-46f7-8e47-b127e5c1d7a1")
+		(uuid "61b38a93-aa95-4cd1-8903-ae5cccad6b19")
 	)
 	(junction
 		(at 182.88 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dfde47c7-c8e0-4cb0-8dd0-af9cf8de0145")
+		(uuid "6f8051b0-0f7d-44dc-9505-3a1eb59f5ebb")
 	)
 	(junction
-		(at 162.56 71.12)
+		(at 107.95 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e5e48b86-3649-403a-bd1a-97c2cd503f6b")
+		(uuid "e5102b56-0726-49fb-8cd6-bf91812efc79")
 	)
 	(junction
 		(at 116.84 95.25)
@@ -1087,6 +1087,16 @@
 			(type default)
 		)
 		(uuid "03fc0734-a2ec-4c8d-8b4c-21b0d0b4bb88")
+	)
+	(wire
+		(pts
+			(xy 162.56 71.12) (xy 165.1 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f4eae1-29ab-42e4-91f9-b3feb72eba10")
 	)
 	(wire
 		(pts
@@ -1110,6 +1120,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 76.2) (xy 165.1 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "134ff771-f3b9-4e90-8881-bac070f375b4")
+	)
+	(wire
+		(pts
 			(xy 207.01 52.07) (xy 214.63 52.07)
 		)
 		(stroke
@@ -1127,16 +1147,6 @@
 			(type default)
 		)
 		(uuid "1ad80628-2f51-4919-9c0f-1123946677d9")
-	)
-	(wire
-		(pts
-			(xy 154.94 76.2) (xy 165.1 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ec79b83-e9c7-4fb0-af2c-8d9a7886753f")
 	)
 	(wire
 		(pts
@@ -1180,13 +1190,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 33.02) (xy 148.59 52.07)
+			(xy 148.59 52.07) (xy 148.59 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c439d86-709c-4f4d-84f6-4bff1f66b58f")
+		(uuid "3c0e230e-510f-4228-8c2c-f6f4a67e1c16")
 	)
 	(wire
 		(pts
@@ -1207,16 +1217,6 @@
 			(type default)
 		)
 		(uuid "44a34fc9-15cb-41fc-a849-8be2e52a5746")
-	)
-	(wire
-		(pts
-			(xy 107.95 54.61) (xy 107.95 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "452049d3-64fd-43ba-9726-8174fe0b1e32")
 	)
 	(wire
 		(pts
@@ -1247,16 +1247,6 @@
 			(type default)
 		)
 		(uuid "488f5eac-db09-45a6-9f56-7518eff17a34")
-	)
-	(wire
-		(pts
-			(xy 180.34 73.66) (xy 182.88 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4aec5af5-1e3d-4231-a24e-2827e72356b6")
 	)
 	(wire
 		(pts
@@ -1310,6 +1300,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 52.07) (xy 148.59 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b76de5-012b-4a31-a125-4de6999c2a20")
+	)
+	(wire
+		(pts
 			(xy 222.25 62.23) (xy 232.41 62.23)
 		)
 		(stroke
@@ -1320,7 +1320,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 52.07) (xy 148.59 71.12)
+			(xy 148.59 33.02) (xy 148.59 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1387,16 +1387,6 @@
 			(type default)
 		)
 		(uuid "82717a84-cf62-4c0c-87b4-a37e46d60a2b")
-	)
-	(wire
-		(pts
-			(xy 140.97 52.07) (xy 148.59 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "863b1960-88f5-4232-889d-ccb42b6704e0")
 	)
 	(wire
 		(pts
@@ -1477,6 +1467,16 @@
 			(type default)
 		)
 		(uuid "91de631d-8401-4e86-a9fc-1afcd63a3fa5")
+	)
+	(wire
+		(pts
+			(xy 107.95 54.61) (xy 107.95 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95bce0f3-ad5e-4238-b709-ee75f79dd026")
 	)
 	(wire
 		(pts
@@ -1600,23 +1600,23 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 71.12) (xy 165.1 71.12)
+			(xy 180.34 73.66) (xy 182.88 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c43d97c5-8d32-415a-8097-bf7a6824f45c")
+		(uuid "c1059d0f-5329-4308-9ada-232e4b7e7751")
 	)
 	(wire
 		(pts
-			(xy 125.73 49.53) (xy 123.19 49.53)
+			(xy 123.19 49.53) (xy 127 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0975fec-e100-4212-93ca-62201b03cd90")
+		(uuid "ccddca7f-fd58-4278-b299-7a2652f3f69d")
 	)
 	(wire
 		(pts
@@ -1637,16 +1637,6 @@
 			(type default)
 		)
 		(uuid "d632fca7-4c3c-4d5f-a6c8-2687ccd2ec03")
-	)
-	(wire
-		(pts
-			(xy 107.95 54.61) (xy 125.73 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd2dfd66-cd73-44a1-b112-4b5db8ce1e50")
 	)
 	(wire
 		(pts
@@ -1717,6 +1707,16 @@
 			(type default)
 		)
 		(uuid "fc3fc622-05b8-482f-96dc-5a284742a467")
+	)
+	(wire
+		(pts
+			(xy 107.95 54.61) (xy 127 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe9f991e-aa74-48b5-a2d9-51cdf776858c")
 	)
 	(wire
 		(pts
@@ -3071,7 +3071,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL084")
-		(at 172.72 73.66 0)
+		(at 134.62 52.07 0)
 		(mirror x)
 		(unit 3)
 		(exclude_from_sim no)
@@ -3081,7 +3081,7 @@
 		(fields_autoplaced yes)
 		(uuid "896aeab8-f5df-4c84-84ec-175c632aada6")
 		(property "Reference" "U1"
-			(at 172.72 83.82 0)
+			(at 134.62 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3089,7 +3089,7 @@
 			)
 		)
 		(property "Value" "TL084"
-			(at 172.72 81.28 0)
+			(at 134.62 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3097,7 +3097,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 171.45 76.2 0)
+			(at 133.35 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3106,7 +3106,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
-			(at 173.99 78.74 0)
+			(at 135.89 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3115,7 +3115,7 @@
 			)
 		)
 		(property "Description" "Quad JFET-Input Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
-			(at 172.72 73.66 0)
+			(at 134.62 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3822,7 +3822,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL084")
-		(at 133.35 52.07 0)
+		(at 172.72 73.66 0)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -3832,7 +3832,7 @@
 		(fields_autoplaced yes)
 		(uuid "e43275e0-1d78-47b4-9d97-57d36487366c")
 		(property "Reference" "U1"
-			(at 133.35 62.23 0)
+			(at 172.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3840,7 +3840,7 @@
 			)
 		)
 		(property "Value" "TL084"
-			(at 133.35 59.69 0)
+			(at 172.72 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3848,7 +3848,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 132.08 54.61 0)
+			(at 171.45 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,7 +3857,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
-			(at 134.62 57.15 0)
+			(at 173.99 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3866,7 +3866,7 @@
 			)
 		)
 		(property "Description" "Quad JFET-Input Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
-			(at 133.35 52.07 0)
+			(at 172.72 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
